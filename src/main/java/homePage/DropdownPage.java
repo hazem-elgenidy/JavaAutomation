@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class DropdownPage {
 
@@ -31,6 +32,13 @@ public class DropdownPage {
 
     }
         return optionText;
+    }
+
+    public List<String> getSelectedOption(){
+        return findDropdownElement().getAllSelectedOptions()
+                .stream()
+                .map(WebElement::getText)
+                .collect(Collectors.toList());
     }
     private Select findDropdownElement() {
         return new Select(driver.findElement(dropdown));
