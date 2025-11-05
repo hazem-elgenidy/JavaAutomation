@@ -35,4 +35,9 @@ public class homePage {
         driver.findElement(By.linkText(linkText)).click();
 
     }
+    public void clickHovers()
+    {
+        clickLink("Hovers");
+
+    }
 }
