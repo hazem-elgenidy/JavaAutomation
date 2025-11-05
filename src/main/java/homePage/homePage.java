@@ -1,5 +1,6 @@
 package homePage;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,22 +10,29 @@ public class homePage {
 
     private WebDriver driver;
 
-    //locators
-    @FindBy(linkText = "Form Authentication")
-    private WebElement FormAuth;
 
 
     //constructor
     public homePage(WebDriver driver)
     {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
+        
     }
 
     //methods
     public void clickFormAuth()
     {
-        FormAuth.click();
+        clickLink("Form Authentication");
+
+    }
+    public void clickDropdown()
+    {
+        clickLink("Dropdown");
+
+    }
+    private void clickLink(String linkText)
+    {
+        driver.findElement(By.linkText(linkText)).click();
 
     }
 }

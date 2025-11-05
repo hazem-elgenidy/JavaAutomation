@@ -8,7 +8,7 @@ public class LoginTest extends BaseTest {
 
 
     String username = ("tomsmith");
-    String Password  = ("SuperSecretPassword");
+    String Password  = ("SuperSecretPassword!");
 
 
     @Test

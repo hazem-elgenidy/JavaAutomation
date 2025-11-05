@@ -15,12 +15,8 @@ public class BaseTest {
     public void setUp(){
         driver = new ChromeDriver();
         driver.get("https://the-internet.herokuapp.com/");
-        goHome();
 
-    }
-    public void goHome(){
-        homePage = new homePage (driver);
-        homePage.clickFormAuth();
+
     }
 
 }
