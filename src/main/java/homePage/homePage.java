@@ -40,4 +40,10 @@ public class homePage {
         clickLink("Hovers");
 
     }
+    public void clickJavaScriptAlerts()
+    {
+        clickLink("JavaScript Alerts");
+
+    }
+
 }
