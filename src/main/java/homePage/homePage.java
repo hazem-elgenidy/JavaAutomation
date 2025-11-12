@@ -45,5 +45,13 @@ public class homePage {
         clickLink("JavaScript Alerts");
 
     }
+    public void clickKeyPresses()
+    {
+        clickLink("Key Presses");
 
+    }
+    public void clickFileUpload()
+    {
+        clickLink("File Upload");
+    }
 }
