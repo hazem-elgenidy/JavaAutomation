@@ -30,11 +30,7 @@ public class homePage {
         clickLink("Dropdown");
 
     }
-    private void clickLink(String linkText)
-    {
-        driver.findElement(By.linkText(linkText)).click();
 
-    }
     public void clickHovers()
     {
         clickLink("Hovers");
@@ -53,5 +49,15 @@ public class homePage {
     public void clickFileUpload()
     {
         clickLink("File Upload");
+    }
+    public void clickFrames()
+    {
+        clickLink("Frames");
+    }
+
+    private void clickLink(String linkText)
+    {
+        driver.findElement(By.linkText(linkText)).click();
+
     }
 }

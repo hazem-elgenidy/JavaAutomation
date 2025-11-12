@@ -1,8 +1,7 @@
 package FileUpload;
 
 import base.BaseTest;
-import homePage.fileUploadPage;  // Consider renaming to FileUploadPage (capital F)
-import org.openqa.selenium.WebDriver;
+import Pages.fileUploadPage;  // Consider renaming to FileUploadPage (capital F)
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

@@ -1,7 +1,7 @@
 package dropdown;
 
 import base.BaseTest;
-import homePage.DropdownPage;
+import Pages.DropdownPage;
 import homePage.homePage;
 import org.testng.annotations.Test;
 

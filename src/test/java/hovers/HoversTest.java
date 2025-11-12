@@ -1,7 +1,7 @@
 package hovers;
 
 import base.BaseTest;
-import homePage.HoversPage;
+import Pages.HoversPage;
 import homePage.homePage;
 import org.testng.annotations.Test;
 

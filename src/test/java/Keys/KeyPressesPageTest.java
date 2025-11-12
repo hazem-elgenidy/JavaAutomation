@@ -2,7 +2,7 @@ package Keys;
 import homePage.homePage;
 
 import base.BaseTest;
-import homePage.KeyPressesPage;
+import Pages.KeyPressesPage;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

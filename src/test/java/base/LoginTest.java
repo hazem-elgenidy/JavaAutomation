@@ -1,7 +1,6 @@
 package base;
 
-import homePage.LoginPage;
-import org.testng.annotations.BeforeMethod;
+import Pages.LoginPage;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {

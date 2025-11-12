@@ -2,7 +2,7 @@ package JsDialogues;
 
 import base.BaseTest;
 import homePage.homePage;
-import homePage.JavascriptAlertPage;
+import Pages.JavascriptAlertPage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
